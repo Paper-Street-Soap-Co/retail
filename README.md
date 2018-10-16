@@ -1,2 +1,2 @@
 # retail
-soap -> mayhem
+soap → mayhem
