@@ -1,6 +1,6 @@
 version: 1
 type: pipeline-template
-name: Template with number Parameter
+name: Symantec: OpenJDK-11.0.2 Project
 description: A template with a single number parameter
 parameters:
   - name: someNumber
