@@ -6,3 +6,9 @@ parameters:
   - name: someNumber
     displayName: A number
     type: number
+multibranch:
+  branchSource:
+    github:
+      repoOwner: paper-street-soap-co
+      repository: ${repoName}
+      scanCredentialsId: github-secret-text
