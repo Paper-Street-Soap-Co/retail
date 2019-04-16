@@ -2,4 +2,4 @@ version: 1
 type: pipeline-template-catalog
 
 name: symantecExample
-displayName: Shared Template Catalog for Symantec Teams
+displayName: Symantec Approved Pipelines
