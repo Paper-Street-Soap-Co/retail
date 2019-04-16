@@ -1,8 +1,14 @@
 version: 1
 type: pipeline-template
-name: Template with number Parameter
-description: A template with a single number parameter
+name: A Multibranch Template with Orphaned Items
+templateType: multibranch
 parameters:
-  - name: someNumber
-    displayName: A number
-    type: number
+  - name: repoUrl
+    type: string
+    displayName: Repo
+multibranch:
+  branchSource:
+    git:
+      remote: ${repoUrl}
+  orphanedItemStrategy:
+    daysToKeep: 3
