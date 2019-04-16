@@ -1,14 +1,15 @@
-version: 1
 type: pipeline-template
 name: A Multibranch Template with Orphaned Items
 templateType: multibranch
 parameters:
-  - name: repoUrl
+  - name: repoName
     type: string
-    displayName: Repo
+    displayName: repo
 multibranch:
   branchSource:
-    git:
-      remote: ${repoUrl}
+    github:
+      repoOwner: paper-street-soap-co
+      repository: ${repoName}
+      scanCredentialsId: github-secret-text
   orphanedItemStrategy:
     daysToKeep: 3
