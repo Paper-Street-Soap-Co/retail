@@ -1,5 +1,5 @@
 version: 1
 type: pipeline-template-catalog
 
-name: symantec-pipeline-templates
-displayName: Symantec Approved Pipelines
+name: box-pipeline-templates
+displayName: Box Approved Pipelines
