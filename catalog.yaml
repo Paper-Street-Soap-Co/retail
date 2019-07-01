@@ -1,5 +1,5 @@
 version: 1
 type: pipeline-template-catalog
 
-name: box-pipeline-templates
-displayName: Box Approved Pipelines
+name: paper-street--pipeline-templates
+displayName: Paper Street Approved Pipelines
