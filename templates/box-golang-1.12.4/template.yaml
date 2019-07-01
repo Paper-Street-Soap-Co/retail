@@ -1,6 +1,6 @@
 version: 1
 type: pipeline-template
-name: OpenJDK-11.0.2
+name: golang-1.12.4
 description: A template with a single number parameter
 parameters:
   - name: someNumber
